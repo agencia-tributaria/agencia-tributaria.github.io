@@ -6,7 +6,8 @@
       <head>
         <title><choose xmlns="http://www.w3.org/1999/XSL/Transform">
           <when test="wadl:doc/@title">
-            <value-of select="wadl:doc/@title" />
+            <!--value-of select="wadl:doc/@title" /-->
+            <text>REST Interface</text>
           </when>
           <otherwise>
             <text>REST Interface</text>
