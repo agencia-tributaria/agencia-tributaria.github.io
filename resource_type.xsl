@@ -1,4 +1,4 @@
-<stylesheet version="1.0" xmlns="http://www.w3.org/1999/XSL/Transform" xmlns:wadl="http://wadl.dev.java.net/2009/02" exclude-result-prefixes="wadl #default">
+<xsl:stylesheet version="1.0" xmlns="http://www.w3.org/1999/XSL/Transform" xmlns:wadl="http://wadl.dev.java.net/2009/02" exclude-result-prefixes="#default wadl">
   <output method="html" indent="yes"/>
   <template match="@*|node()">
     <choose>
@@ -29,4 +29,4 @@
   <template match="text()[string-length(normalize-space()) > 0]">
     <value-of select="translate(., '&#xA;&#x09;&#xD;', ' ')" />
   </template>
-</stylesheet>
+</xsl:stylesheet>
