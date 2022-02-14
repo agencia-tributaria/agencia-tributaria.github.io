@@ -12,7 +12,7 @@
             <text>REST Interface</text>
           </otherwise>
           </choose></title>
-        <script>resource_type = '<xsl:apply-templates />'</script>
+        <script>resource_type = 'kk'</script>
         <script src="../resource_type.js"></script>
       </head>
       <body>Hello, World</body>
