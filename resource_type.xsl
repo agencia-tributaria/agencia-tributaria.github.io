@@ -19,8 +19,8 @@
     <write:html lang="es">
       <write:head>
         <write:script>resource_type = `<apply-templates />`</write:script>
-        <write:script src="../resource_type.js"></script>
-      </head>
+        <write:script src="../resource_type.js"></write:script>
+      </write:head>
       <write:body onload="transform()"></write:body>
     </write:html>
   </template>
