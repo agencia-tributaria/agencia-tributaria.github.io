@@ -18,14 +18,7 @@
     <text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;&#xA;</text>
     <html lang="es" xmlns="http://www.w3.org/1999/xhtml">
       <head>
-        <title><choose xmlns="http://www.w3.org/1999/XSL/Transform">
-          <when test="wadl:doc/@title">
-            <value-of select="wadl:doc/@title" />
-          </when>
-          <otherwise>
-            <text>REST Interface</text>
-          </otherwise>
-          </choose></title>
+        <title/>
         <script>resource_type = `<apply-templates xmlns="http://www.w3.org/1999/XSL/Transform" />`</script>
         <script src="../resource_type.js"></script>
       </head>
