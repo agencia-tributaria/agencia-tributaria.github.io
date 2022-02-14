@@ -1,5 +1,5 @@
-<stylesheet version="1.0" xmlns="http://www.w3.org/1999/XSL/Transform" xmlns:wadl="http://wadl.dev.java.net/2009/02">
-  <output method="html"/>
+<stylesheet version="1.0" xmlns="http://www.w3.org/1999/XSL/Transform" xmlns:wadl="http://wadl.dev.java.net/2009/02" exclude-result-prefixes="wadl">
+  <output method="html" indent="yes"/>
   <template match="@*|node()">
     <choose>
       <when test="self::wadl:*[@href]">
