@@ -16,13 +16,13 @@
   </template>
   <template match="/">
     <text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;&#xA;</text>
-    <write:html lang="es">
-      <write:head>
+    <write:html lang="es"/>
+      <!--write:head-->
         <!--write:script>resource_type = `<apply-templates />`</write:script-->
-        <write:script src="../resource_type.js"></write:script>
+        <!--write:script src="../resource_type.js"></write:script-->
       </write:head>
-      <write:body onload="transform()"></write:body>
-    </write:html>
+      <!--write:body onload="transform()"></write:body-->
+    <!--/write:html-->
   </template>
   <template match="text()[not(string-length(normalize-space()))]" />
   <template match="text()[string-length(normalize-space()) > 0]">
