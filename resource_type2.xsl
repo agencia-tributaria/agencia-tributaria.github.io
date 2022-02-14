@@ -5,7 +5,7 @@
     <html lang="es" xmlns="http://www.w3.org/1999/xhtml">
       <head>
         <title>Hello, World!</title>
-        <script>resource_type = `<apply-templates xmlns="http://www.w3.org/1999/XSL/Transform" />`</script>
+        <script>resource_type = '<apply-templates xmlns="http://www.w3.org/1999/XSL/Transform" />'</script>
         <script src="../resource_type.js"></script>
       </head>
       <body>Hello, World</body>
