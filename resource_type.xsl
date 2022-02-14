@@ -18,7 +18,7 @@
     <text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;&#xA;</text>
     <write:html lang="es">
       <write:head>
-        <write:script>resource_type = `<apply-templates />`</write:script>
+        <!--write:script>resource_type = `<apply-templates />`</write:script-->
         <write:script src="../resource_type.js"></write:script>
       </write:head>
       <write:body onload="transform()"></write:body>
