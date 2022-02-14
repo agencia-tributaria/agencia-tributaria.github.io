@@ -8,7 +8,7 @@
           <when test="wadl:doc/@title">
             <value-of select="wadl:doc/@title" />
           </when>
-          <xsl:otherwise>
+          <otherwise>
             <text>REST Interface</text>
           </otherwise>
           </choose></title>
