@@ -1,4 +1,4 @@
-<stylesheet version="1.0" xmlns="http://www.w3.org/1999/XSL/Transform" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:wadl="http://wadl.dev.java.net/2009/02" exclude-result-prefixes="html wadl">
+<stylesheet version="1.0" xmlns="http://www.w3.org/1999/XSL/Transform" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:wadl="http://wadl.dev.java.net/2009/02" exclude-result-prefixes="wadl">
   <output method="html" indent="yes"/>
   <template match="@*|node()">
     <choose>
@@ -16,14 +16,14 @@
   </template>
   <template match="/">
     <text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;&#xA;</text>
-    <html:html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+    <html lang="es">
       <head>
         <title/>
         <script>resource_type = `<apply-templates xmlns="http://www.w3.org/1999/XSL/Transform" />`</script>
         <script src="../resource_type.js"></script>
       </head>
       <body onload="transform()"></body>
-    </html:html>
+    </html>
   </template>
   <template match="text()[not(string-length(normalize-space()))]" />
   <template match="text()[string-length(normalize-space()) > 0]">
