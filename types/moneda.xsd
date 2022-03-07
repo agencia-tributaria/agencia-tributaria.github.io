@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://agencia-tributaria.github.io/types" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <simpleType name="moneda">
+    <restriction base="xsd:string">
+      <enumeration value="€"/>
+      <enumeration value="$"/>
+    </restriction>
+  </simpleType>
+</schema>
