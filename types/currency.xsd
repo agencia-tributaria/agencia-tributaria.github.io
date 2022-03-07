@@ -4,5 +4,6 @@
     <restriction base="xsd:string">
       <enumeration value="€"/>
       <enumeration value="$"/>
-  </restriction>
-</simpleType>
+    </restriction>
+  </simpleType>
+</schema>
