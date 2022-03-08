@@ -3,7 +3,7 @@
   <element name="root" type="this:positive-integer" />
   <simpleType name="positive-integer">
     <restriction base="token">
-      <pattern value="([&lt;&gt;]&#x20;*)?\d+" />
+      <pattern value="([&lt;&gt;]=?&#x20;*)?\d+" />
     </restriction>
   </simpleType>
 </schema>
