@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:this="http://agencia-tributaria.github.io/predicates" targetNamespace="http://agencia-tributaria.github.io/predicates" elementFormDefault="qualified">
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:this="http://agencia-tributaria.github.io/types/predicates.xsd" targetNamespace="http://agencia-tributaria.github.io/types/predicates.xsd" elementFormDefault="qualified">
   <element name="root" type="this:positive-integer" />
   <simpleType name="positive-integer">
     <restriction base="token">
